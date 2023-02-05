@@ -1,5 +1,4 @@
-export default function Entry ({ title, date, description, tags, link }: { title: string, date: string, description: string, tags: string[], link: string })
-{
+export default function Entry ({ title, date, description, tags, link }: { title: string, date: string, description: string, tags: string[], link: string }) {
   return (
     <a href={link}>
       <div className="group relative col-span-full flex flex-col items-center gap-2 overflow-hidden bg-gray-100 rounded bg-gradient-to-r from-gray-850 to-gray-900 p-3 pt-4 text-center shadow-2xl shadow-black/45 md:col-span-8 md:flex-row md:items-start md:pt-3 md:text-left lg:gap-8 lg:p-4 transition ease-in-out delay-5 hover:shadow-orange-200">
