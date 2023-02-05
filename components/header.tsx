@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 export default function Header () {
   return (
-    <header className="sticky top-0 z-top bg-white/60 py-2 backdrop-blur-md">
+    <header className="sticky top-0 z-50 bg-white/60 py-2 backdrop-blur-md">
       <div className="mx-auto max-w-7xl px-6">
-        <div className="flex items-center justify-between  py-6 md:justify-start md:space-x-10">
+        <div className="flex items-center justify-between  py-3 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1 items-center">
               <Link href="/">
                 <Image className="h-8 w-auto sm:h-10" src="/favicon.png" alt="Picture of the author" width={500} height={500}/>
