@@ -1,14 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-const links = [{
-  label: 'Home',
-  route: '/'
-}, {
-  label: 'About',
-  route: '/about'
-}]
-
 export default function Header () {
   return (
     <div className="relative bg-black">
@@ -19,6 +11,14 @@ export default function Header () {
                 <Image className="h-8 w-auto sm:h-10" src="/favicon.png" alt="Picture of the author" width={500} height={500}/>
               </Link>
               <h1 className="text-2xl font-bold text-white pl-6"> Learning Platform</h1>
+          </div>
+          <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
+            <Link href="/" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-slate-50">
+              Sign in
+            </Link>
+            <Link href="/" className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-orange-400 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-orange-500">
+              Sign up
+            </Link>
           </div>
         </div>
       </div>
