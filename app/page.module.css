@@ -269,3 +269,15 @@
     transform: rotate(0deg);
   }
 }
+
+.background {
+  background: radial-gradient(95% 150% at 13.18% 0%, rgb(14, 115, 204) 0%, rgb(98, 75, 187) 29.47%, rgb(255, 69, 93) 52.87%, rgb(243, 88, 21) 86.38%, rgb(254, 213, 74) 100%);
+  opacity: 1;
+  filter: blur(0px);
+  transform: none;
+}
+
+
+.background-grid {
+  background: repeat url(/public/grid-bg.svg);
+}

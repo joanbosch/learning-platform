@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Header () {
   return (
-    <div className="relative bg-white">
+    <header className="sticky top-0 z-top bg-white/60 py-2 backdrop-blur-md">
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex items-center justify-between  py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1 items-center">
@@ -22,6 +22,6 @@ export default function Header () {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   )
 }

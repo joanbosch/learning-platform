@@ -8,8 +8,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" className="[scroll-behavior:smooth] motion-reduce:[scroll-behavior:auto] light">
+      <body className="bg-primary text-base text-primary antialiased">
         <Header />
         {children}
         <Footer />

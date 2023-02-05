@@ -1,6 +1,6 @@
 export default function Footer () {
   return (
-  <footer className="p-4 bg-black sm:p-6 max-w-7xl mx-auto">
+  <footer className="p-4 bg-black sm:p-6 max-p-7xl mx-auto">
       <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
               <a href="https://flowbite.com/" className="flex items-center">
